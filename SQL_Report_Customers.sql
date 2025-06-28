@@ -89,7 +89,7 @@ end age_group,
 -----------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------
-----Segmenting the types of customer on the basis of theirlifespan and total sales
+----Segmenting the types of customer on the basis of their lifespan and total sales
 case when lifespan>=12 and total_sales>5000 then 'VIP'
 	when lifespan>=12 and total_sales<=5000 then 'Regular'
 	else 'New'
@@ -110,7 +110,7 @@ end avg_order_value,
 -----------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------
-----Averane Monthly Spend
+----Average Monthly Spend
 case when lifespan=0 then total_Sales	
 	else total_Sales/lifespan
 end avg_monthly_spend
