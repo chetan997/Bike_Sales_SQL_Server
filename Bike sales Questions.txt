@@ -1,0 +1,39 @@
+We have a data of bike sales which include 3 tables sales table , product table and customers table.
+
+Problem Statement-Create 2 reports to find important metrics and behaviors-
+
+1) Customer Report
+
+Purpose- This report consolidates key customer metrics and behaviors
+
+Highlights:
+ i). Gather essential fields such as names, ages, and transaction details.
+ ii). Segment customers into categories (VIP, Regular, New) and age groups.
+ iii). Aggregate customer-level metrics:
+	- total orders
+	- total sales
+	- total quantity purchased
+	- total products
+	- lifespan (in months)
+ iv). Calculate valuable KPIs:
+	- recency (months since last order)
+	- average order value
+	- average monthly spend
+
+2)Product Report
+
+Purpose- This report consolidates key product metrics and behaviors.
+
+Highlights:
+i). Gather essential fields such as product name, category, subcategory, and cost.
+ii). Segment products by revenue to identify High-Performers, Mid-Range, or Low-Performers.
+iii). Aggregate product-level metrics:
+       - total orders
+       - total sales
+       - total quantity sold
+       - total customers (unique)
+       - lifespan (in months)
+iv). Calculate valuable KPIs:
+       - recency (months since last sale)
+       - average order revenue (AOR)
+       - average monthly revenue
