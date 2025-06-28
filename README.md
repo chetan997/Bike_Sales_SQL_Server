@@ -6,7 +6,7 @@ Approach-
 
 For Customer Report-
 
-1) I first retreived all the important columns from fact sales and dim products table to do further aggregations and analysis.
+1) I first retreived all the important columns from fact sales and dim customers table to do further aggregations and analysis.
 2) Then I did Customer Aggregation to summarize the key matrics at customer level for customer report.
 3) In the final Query I Combined all customers query into one output.
    - Also did segmenting the customers age group for better understanding.
